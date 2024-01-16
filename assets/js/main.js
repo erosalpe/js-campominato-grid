@@ -1,0 +1,1 @@
+const grigliaHtml = document.getElementById("griglia")
