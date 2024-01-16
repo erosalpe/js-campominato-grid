@@ -41,11 +41,18 @@ main{
     flex-wrap: wrap;
     margin: 0 auto;
     width: 40%;
-    border: 2px solid black;
 }
 
 .box{
-    border: 2px solid black;
+    border: 1px solid black;
     flex-basis: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
     aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.active{
+    background-color: lightskyblue;
 }
