@@ -15,6 +15,7 @@ buttonGioca.addEventListener( "click", function(){
 
             box.addEventListener( "click", function(){
                 this.classList.toggle("active");
+                console.log(`hai cliccato la casella ${i}`)
             })
 
             box.innerText = i;
@@ -30,6 +31,7 @@ buttonGioca.addEventListener( "click", function(){
             box.classList.add("box");
             box.addEventListener( "click", function(){
                 this.classList.toggle("active");
+                console.log(`hai cliccato la casella ${i}`)
             })
 
             box.innerText = i;
@@ -45,6 +47,7 @@ buttonGioca.addEventListener( "click", function(){
             box.classList.add("box");
             box.addEventListener( "click", function(){
                 this.classList.toggle("active");
+                console.log(`hai cliccato la casella ${i}`)
             })
 
             box.innerText = i;
