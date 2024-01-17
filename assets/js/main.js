@@ -8,6 +8,7 @@ buttonGioca.addEventListener( "click", function(){
     grigliaHtml.innerHTML = "";
 
     if (difficultyChoose.value === "difficoltà1"){
+        r.style.setProperty('--columns', '10');
 
         for (let i = 1; i <= 100; i++){
             let box = document.createElement("div");
